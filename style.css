@@ -1,3 +1,62 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #D25253;
+}
+
+.main-cont {
+    min-height: 100vh;
+}
+
+
+/* Titles & text */
+
+h1 {
+    color: #FFF;
+    font-weight: 600;
+}
+
+h2 {
+    color: #C1BC3C;
+}
+
+p {
+    color: #f1c0be;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+/* Counter */
+
+.btn-counter {
+    margin: 0 5px;
+    border: 1px solid #E6B143;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.btn-counter:hover,
+.btn-counter:active,
+.btn-counter:focus {
+    background-color: #E6B143;
+    color: #000;
+}
+
+.number-input {
+    width: 300px;
+    height: 3.5rem;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: #E6B143;
+    font-size: 3rem;
+}
+
+.number-input.main-input {
+    width: auto;
+    height: 6rem;
+    font-size: 5rem;
 }
